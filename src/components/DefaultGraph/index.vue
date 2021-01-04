@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-12-28 15:56:38
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-12-28 15:56:56
+ * @LastEditTime: 2021-01-04 11:08:14
 -->
 <template>
   <div class="default-graph">
@@ -44,17 +44,17 @@ export default {
 
 <style lang="scss" scoped>
 .default-graph {
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 
   .tip-text {
-    font-size: 14px;
-    color: #555;
     height: 36px;
-    line-height: 36px;
     margin-top: 12px;
+    font-size: 14px;
+    line-height: 36px;
+    color: #555;
   }
 }
 </style>
