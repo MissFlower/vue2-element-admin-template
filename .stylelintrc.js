@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2021-01-04 09:36:09
  * @LastEditors: AiDongYang
- * @LastEditTime: 2021-01-04 11:09:54
+ * @LastEditTime: 2021-01-04 11:27:44
  */
 module.exports = {
   extends: ['stylelint-config-standard'], //'stylelint-config-recommended', 
@@ -279,7 +279,8 @@ module.exports = {
       "page-break-after",
       "page-break-inside",
       "widows"
-    ],  
+    ],
+    "selector-no-universal": true, // 禁用通配符选择器
     "no-empty-source": null, // 禁止空源
     "property-no-vendor-prefix": [true, {"ignoreProperties": ["background-clip"]}], // 禁止属性使用浏览器引擎前缀
     "number-leading-zero": "never", // 要求或禁止小于 1 的小数的前导 0
@@ -296,13 +297,14 @@ module.exports = {
     "media-feature-colon-space-after": "always", // 在 media 特性中的冒号之后要求有一个空格或禁止有空白
     "media-feature-range-operator-space-after": "always", // 在 media 特性的范围操作符之后要求有一个空格或禁止有空白
     "at-rule-name-space-after": "always", // 要求在 at 规则之后有一个空格
-    "indentation": 2,
+    "indentation": 2, // 缩进
     "no-eol-whitespace": true, // 禁止行尾空白
     "string-no-newline": null, // 禁止在字符串中使用（非转义的）换行符
     "no-descending-specificity": null, // 禁止低优先级的选择器出现在高优先级的选择器之后
-    // "property-no-unknown": null, // 禁止使用未知属性
+    "property-no-unknown": null, // 禁止使用未知属性 自定义属性(变量)
     "at-rule-no-unknown": null, // 禁止使用未知的 at 规则
     "selector-pseudo-element-no-unknown": null, // 禁止使用未知的伪元素  ::v-deep不识别
+    "selector-pseudo-class-no-unknown": null, // 禁止使用未知的伪类选择器
     "property-case": null // 禁止驼峰命名
   }
 }
