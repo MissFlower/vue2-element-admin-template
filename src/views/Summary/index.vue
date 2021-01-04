@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-11-30 17:20:23
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-12-01 14:49:28
+ * @LastEditTime: 2021-01-04 10:06:13
 -->
 <template>
   <div>
@@ -61,7 +61,7 @@
       <el-table
         :data="tableData"
         border
-        style="width: 100%"
+        style="width: 100%;"
       >
         <el-table-column
           fixed
@@ -255,4 +255,34 @@ export default {
 
 <style lang="scss" scoped>
 
+.search-form-container /deep/ {
+  margin-bottom: 24px;
+
+  .el-form {
+    display: flex;
+    // justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 12px;
+  }
+
+  .el-form-item {
+    flex: 0 1 calc((100% - 54px) / 4);
+    margin-right: 0;
+    margin-bottom: -5px;
+  }
+
+  .el-form-item__content,
+  .el-select {
+    width: 100%;
+  }
+
+  .search-button-box {
+    text-align: center;
+
+    .el-button + .el-button {
+      margin-left: 18px;
+    }
+  }
+}
 </style>
