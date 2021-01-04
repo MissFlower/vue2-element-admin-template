@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-11-30 14:52:35
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-12-01 13:51:36
+ * @LastEditTime: 2021-01-04 12:05:05
 -->
 <template>
   <section class="app-main">
@@ -36,9 +36,9 @@ export default {
 
 <style lang="scss" scoped>
 .app-main {
-  overflow: auto;
-  height: 100%;
   min-width: 1100px;
+  height: 100%;
   padding: 24px;
+  overflow: auto;
 }
 </style>

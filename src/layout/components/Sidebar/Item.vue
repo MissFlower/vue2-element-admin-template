@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-11-30 15:00:45
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-11-30 15:00:46
+ * @LastEditTime: 2021-01-04 12:05:14
 -->
 <script>
 export default {
@@ -42,8 +42,8 @@ export default {
 
 <style scoped>
 .sub-el-icon {
-  color: currentColor;
   width: 1em;
   height: 1em;
+  color: currentColor;
 }
 </style>

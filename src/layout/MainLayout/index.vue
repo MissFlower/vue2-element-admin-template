@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-11-30 15:04:16
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-11-30 15:05:17
+ * @LastEditTime: 2021-01-04 12:05:27
 -->
 <template>
   <div :class="classObj" class="app-wrapper">
@@ -51,15 +51,15 @@ export default {
 </script>
 <style lang="scss" scoped>
 .app-wrapper {
+  position: relative;
   width: 100%;
   height: 100%;
-  position: relative;
 
   .main {
+    position: relative;
     width: 100%;
     height: 100%;
     padding-top: 50px;
-    position: relative;
     overflow: auto;
   }
 }
