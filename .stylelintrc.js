@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2021-01-04 09:36:09
  * @LastEditors: AiDongYang
- * @LastEditTime: 2021-01-04 11:27:44
+ * @LastEditTime: 2021-01-04 11:49:00
  */
 module.exports = {
   extends: ['stylelint-config-standard'], //'stylelint-config-recommended', 
@@ -280,7 +280,6 @@ module.exports = {
       "page-break-inside",
       "widows"
     ],
-    "selector-no-universal": true, // 禁用通配符选择器
     "no-empty-source": null, // 禁止空源
     "property-no-vendor-prefix": [true, {"ignoreProperties": ["background-clip"]}], // 禁止属性使用浏览器引擎前缀
     "number-leading-zero": "never", // 要求或禁止小于 1 的小数的前导 0
