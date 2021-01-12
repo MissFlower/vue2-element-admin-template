@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2021-01-04 09:36:09
  * @LastEditors: AiDongYang
- * @LastEditTime: 2021-01-04 11:49:00
+ * @LastEditTime: 2021-01-05 16:58:12
  */
 module.exports = {
   extends: ['stylelint-config-standard'], //'stylelint-config-recommended', 
@@ -304,6 +304,7 @@ module.exports = {
     "at-rule-no-unknown": null, // 禁止使用未知的 at 规则
     "selector-pseudo-element-no-unknown": null, // 禁止使用未知的伪元素  ::v-deep不识别
     "selector-pseudo-class-no-unknown": null, // 禁止使用未知的伪类选择器
-    "property-case": null // 禁止驼峰命名
+    "property-case": null, // 禁止驼峰命名
+    "color-hex-case": 'upper' // 指定十六进制颜色大小写
   }
 }

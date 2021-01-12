@@ -41,8 +41,7 @@ module.exports = {
     },
     proxy: {
       '/api': {
-        target: 'http://facweb.dev.vsulv.com',
-        // target: 'http://120.79.184.4:8088',
+        target: 'http://120.79.184.4:8088',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/'
