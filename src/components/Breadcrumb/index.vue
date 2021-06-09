@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-11-30 15:17:59
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-12-01 10:32:14
+ * @LastEditTime: 2021-01-21 16:09:04
 -->
 <template>
   <ElBreadcrumb class="app-breadcrumb" separator="/">
@@ -74,7 +74,7 @@ export default {
   line-height: 24px;
 
   .no-redirect {
-    color: #97a8be;
+    color: #97A8BE;
     cursor: text;
   }
 }

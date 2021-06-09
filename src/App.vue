@@ -4,7 +4,7 @@
  * @Author: AiDongYang
  * @Date: 2020-11-30 14:16:20
  * @LastEditors: AiDongYang
- * @LastEditTime: 2020-11-30 15:24:10
+ * @LastEditTime: 2021-01-21 14:44:11
 -->
 <template>
   <div id="app">
@@ -30,7 +30,9 @@ export default {
 <style lang="scss">
 #app {
   height: 100%;
-  div, section {
+
+  div,
+  section {
     box-sizing: border-box;
   }
 }
